@@ -20,8 +20,11 @@ How to configure the Emercoin Core Wallet
 Please update the **emercoin.conf** as follows:
 
 ```
-rpcallow=0.0.0.0/0
+listen=1
+server=1
 daemon=1
+rpcport=6662
+rpcallowip=0.0.0.0/0
 ```
 
 And then restart the wallet.
